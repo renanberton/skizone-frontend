@@ -1,0 +1,158 @@
+.container-home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+
+    h1 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 65px;
+    color: #D84C4C;
+    padding: 50px 0;
+}
+
+    .box-title {
+        width: 90%;
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-family: 'Francois One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            color: #707070;
+        }
+    }
+
+    .slider-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        max-width: 550px;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border: 2px solid #000;
+        margin: 100px 0 150px 0;
+        
+        .slider {
+            width: 100%;
+            max-width: 550px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+            .icon-img {
+                width: 50px;
+                height: auto;
+                cursor: pointer;
+            }
+
+            .skin-img {
+                width: 90%;
+                height: auto;
+                max-width: 300px;
+            }
+        }
+
+        span {
+            font-family: 'Francois One';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            text-align: center;
+            color: #000000;
+            padding-bottom: 30px;
+        }
+    }
+
+    .faq {
+        width: 90%;
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+        .accordion-faq {
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 0;
+
+                .accordion-item {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    cursor: pointer;
+                    padding: 10px 0;
+                    color: #fff;
+                    font-family: 'Francois One';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 26px;
+                
+                .show-element {
+                    background-color: #707070;
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 1s;
+                    padding: 10px 0;
+                    border-top: solid 2px rgba(205, 214, 218, 0.25);
+                    border-bottom: solid 2px rgba(205, 214, 218, 0.25);
+                }
+
+                    #hide-element {
+                        height: 0;
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: 1s;
+                        background-color: #fff;
+                        color: #000;
+                    }
+                }
+
+        }
+    }
+}
+
+.carousel {
+    margin: 50px 0;
+}
+
+.carousel-indicators {
+    top: 125px;
+}
+
+.carousel-item {
+    img {
+        width: 500px !important;
+        height: auto;
+        padding: 0 100px;
+    }
+}
